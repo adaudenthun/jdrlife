@@ -1,3 +1,15 @@
 index:
     path: /
     controller: App\Controller\HomeController::index
+
+univer_listing:
+    path: /univer/listing
+    controller: App\Controller\UniverController::listing
+
+univer_create:
+    path: /univer/create
+    controller: App\Controller\UniverController::create
+
+univer_view:
+    path: /univer/{univer_id}
+    controller: App\Controller\UniverController::view
